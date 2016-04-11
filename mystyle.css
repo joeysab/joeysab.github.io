@@ -27,11 +27,16 @@ html body{
     padding: 10px;
     background-color: rgba(2,5,2,0.5);
     height: 100%;
+    padding-top: 62px;
     
 }
 
 header {
     background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
 }
 
 
@@ -52,6 +57,7 @@ header {
 .menu ul {
     border-right-style: solid;
     float: right;
+    margin-left: 140px;
     
 }
 
