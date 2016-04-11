@@ -1,9 +1,71 @@
-h1 {
-    text-align: left;
-    color: white;
+
+
+body {
+    background: url("images/city.jpg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+
+html body{
+    margin:0;
+    padding:0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.5); /*dim the background*/
+}
+
+.wrapper {
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(2,5,2,0.5);
+    height: 100%;
     
 }
 
-html {
-    background-image: url("images/city.jpg");
+header {
+    background-color: rgb(0, 0, 0);
 }
+
+
+#logo {
+    width: 300px;
+    float: left;
+    
+}
+
+#logo img {
+    width: 50%;
+}
+
+.menu {
+    display: inline-block;
+    width: auto;
+}
+.menu ul {
+    border-right-style: solid;
+    float: right;
+    
+}
+
+.menu ul li {
+    padding: 3px 8px;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.main {
+    text-align: left;
+    color: red;
+}
+
